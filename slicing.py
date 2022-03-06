@@ -1,6 +1,8 @@
-list = ['Alpha', 'Bravo', 'Charlie', 'Delta', 'Echo']
+tuple = (1, 2, 3, 4, 5, 6, 7, 8, 9, 0)
 
-print(list[1::3])
-print(list[:3])
-print(list[::-1])
-print(list[-3:-1])
+print(tuple[2:7])
+print(tuple[0 : len(tuple)])
+print(tuple[2:])
+print(tuple[:2])
+print(tuple[0 : len(tuple) : 2])
+print(tuple[::-1])

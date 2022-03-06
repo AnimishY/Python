@@ -1,0 +1,5 @@
+tuple = (1, 2, 3, 4, 5)
+tuple1 = tuple + (6,)
+print(tuple1)
+tuple1 = tuple1 + (7, 8, 9)
+print(tuple1)
